@@ -1,8 +1,8 @@
 {
-    "coin": "turtlecoin",
-    "symbol": "TRTL",
-    "coinUnits": 100,
-    "coinDifficultyTarget": 30,
+    "coin": "bitminercoin",
+    "symbol": "BIM",
+    "coinUnits": 100000000,
+    "coinDifficultyTarget": 120,
 
     "logging": {
         "files": {
@@ -19,7 +19,7 @@
   "poolServer": {
     "enabled": true,
     "clusterForks": "auto",
-    "poolAddress": "TRTLv3mnq2wS6GepH6nb628jEjFseeojACYToJ1BXaZNNEvLkzW327zTVCh7ncGtS2MU2usGNq9ygVwiCTTft9QkN3t5P2Xqv3f",
+    "poolAddress": "YOURPOOLBIMADDRESS",
     "blockRefreshInterval": 1000,
     "minerTimeout": 3600,
     "ports": [
@@ -91,11 +91,11 @@
     "blockUnlocker": {
         "enabled": true,
         "interval": 30,
-        "depth": 40,
-        "poolFee": 2,
-        "devDonation": 0.1,
-        "coreDevDonation": 0.1,
-        "extraFeaturesDevDonation":0.1
+        "depth": 10,
+        "poolFee": 0.5,
+        "devDonation": 0.0,
+        "coreDevDonation": 0.0,
+        "extraFeaturesDevDonation":0.0
     },
 
     "api": {
